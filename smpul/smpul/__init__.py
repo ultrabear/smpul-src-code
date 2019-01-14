@@ -1,12 +1,10 @@
 # this is version 0.4
 import sys
 import time
-load = 0
 name = "smpul"
 pyversion = sys.version_info[0]
 if pyversion == 3:
   import statistics
-  load = 3
   
   class tree:
     index = ["w()", "a()", "r()"]
@@ -66,7 +64,6 @@ if pyversion == 3:
 
 
 elif pyversion == 2:
-  load = 2
 
   class tree:
    index = ["w()", "a()", "r()"]
@@ -115,4 +112,4 @@ elif pyversion == 2:
         b += (":regional_indicator_%s: " % i)
     return b
   
-  index = {"tree()":tree.index, "text()":text.index, "discord()":discord.index}
+  index = {"tree":tree.index, "text()":text.index, "discord()":discord.index}
