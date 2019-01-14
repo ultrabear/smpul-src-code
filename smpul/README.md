@@ -1,6 +1,6 @@
 
 # smpul.py
-## V0.3.2
+## V0.4
 
 A neat small package to speed up your coding
 
@@ -21,6 +21,11 @@ check out the [github page](https://github.com/ultrabear/smpul-src-code) for sou
     * blockLetter(*content*) **returns discords custom blockletter emoji syntax for any string of alphabetic chrs**
 
 ### CHANGELOG:
+* 0.4.0
+  * added support for python 2
+    * smpul.math not supported in python 2
+    * smpul.tree.tprint adds spaces after each chr because of python 2 syntax
+    * all class items must be called with parenthesis ex: "smpul.tree().r(*params*)"
 * 0.3.2
   * added a changelog
   * improved the text.num function to support float vartype

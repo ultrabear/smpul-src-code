@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="smpul",
-    version="0.3.2",
+    version="0.",
     author="Alex Hall",
     author_email="bearodark@gmail.com",
     description="A small set of tools to make Python just a bit easier to use",
