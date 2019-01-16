@@ -24,8 +24,9 @@ check out the [github page](https://github.com/ultrabear/smpul-src-code) for sou
 * 0.4.0
   * added support for python 2
     * smpul.math not supported in python 2
-    * smpul.tree.tprint adds spaces after each chr because of python 2 syntax
-    * all class items must be called with parenthesis ex: "smpul.tree().r(*params*)"
+  * added smpul.versions which displays the versions that the module version directly supports (this version supports 2.7, 3.6, 3.7)
+    * it is possible to run in other versions but it has been tested to support the listed versions
+  * theoretically wont break if tried to run using python 1, will error out instead
 * 0.3.2
   * added a changelog
   * improved the text.num function to support float vartype
